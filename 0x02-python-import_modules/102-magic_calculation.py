@@ -1,12 +1,10 @@
-#!/usr/bin/python3
-def add(a, b):
-    """My addition function
+#!/bin/usr/bin/ptyhon3
 
-    Args:
-        a: first integer
-        b: second integer
-
-    Returns:
-        The return value. a + b
-    """
-    return (a + b)
+def magic_calculation(a, b):
+    from magic_calculation_102 import add, sub
+    if (a < b):
+        c = add(a, b)
+        for z in range(4, 6):
+            c = add(c, z)
+        return(c)
+    return(sub(a, b))
